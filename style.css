@@ -1,0 +1,28 @@
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.nav_bar a {
+    text-decoration: none;
+}
+.navbar__links {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    gap: 16px;
+}
+.navbar__actions {
+    display: flex;
+}
+.navbar__actions ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+img {
+  width: 50px; /* Define a largura para 300 pixels */
+  height: auto; /* Mantém a proporção original */
+}
