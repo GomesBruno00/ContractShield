@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +7,116 @@
     <title>ContractShield</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header  class="header">
+        <div class="header_div">
+            <img class="header_div_img" src="img/ContractShield_logo.jpeg" alt="Logo ContractShield">
             <nav class="nav_bar">
-                <div class="navbar__logo">
-                <!-- logo aqui -->
-                <img src="img/ContractShield_logo.jpeg" alt="Logo ContractShield">
-                </div>
-                <ul class="navbar__links">
-                <!-- links aqui -->
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#contatos">Contatos</a></li>
+                <ul class="navbar_links1">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="servicos">Serviços</a></li>
+                    <li><a href="contatos">Contatos</a></li>
                 </ul>
-                <div class="navbar__actions">
-                <!-- toggle + botões aqui -->
-                <button><img src="img/DarkMode.webp" alt=""></button>
+                <div class="navbar_links2">
+                    <button><img class="dark_mode" src="img/DarkMode.webp" alt="Alternar tema"></button>
                     <ul>
-                        <li class = "navbar__actions_login"><a href="entrar">Entrar</a></li>
-                        <li class = "navbar__actions_cadastro"><a href="cadastrar">Cadastrar</a></li>
+                        <li class = "navbar_links2_login"><a href="entrar">Entrar</a></li>
+                        <li class = "navbar_links2_cadastro"><a href="cadastrar">Cadastrar</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
+    <main class="main">
+        <section class="main_section1">
+            <div class="main_section1_div1">
+                <div>
+                    <span>TCC · Protótipo funcional</span>
+                    <h1>
+                        O risco está escrito. <br>
+                        Só não está claro.
+                    </h1>
+                    <p>
+                        O Contract Shield lê contratos longos e <br>
+                        devolve o que importa: as cláusulas que <br>
+                        podem custar caro, explicadas em <br>
+                        português simples e ordenadas por <br>
+                        gravidade.
+                    </p>
+                    <div>
+                        <a href="#analisar_um_contrato">Analisar um contrato</a>
+                        <a href="como_funciona">Como funciona</a>
+                    </div>
+                    <div>
+                        <img src="img/ContractShield_logo.jpeg" alt="Logo ContractShield">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div></div>
+        <section>
+            <div>
+                <h2>Três passos, nada mais</h2>
+                <p>Do arquivo ao parecer visual em menos de um minuto.</p>
+            </div>
+            <div>
+                <div>
+                    <span>01</span>
+                    <h3>Envie o contrato</h3>
+                    <p>
+                        Arraste o PDF na área de <br>
+                        upload. Nada é publicado nem <br>
+                        compartilhado.
+                    </p>
+                </div>
+                <div>
+                    <span>02</span>
+                    <h3>Leitura automática</h3>
+                    <p>
+                        O sistema percorre o <br>
+                        documento cláusula por <br>
+                        cláusula em busca de <br>
+                        padrões de risco.
+                    </p>
+                </div>
+                <div>
+                    <span>03</span>
+                    <h3>Relatório com medidor</h3>
+                    <p>
+                        Você recebe as cláusulas <br>
+                        sinalizadas, o motivo e <br>
+                        uma sugestão de <br>
+                        negociação.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <h2>Leia antes de assinar</h2>
+                    <p>
+                        Suba um contrato de exemplo e veja o <br>
+                        relatório completo com o medidor de risco.
+                    </p>
+                </div>
+                <div>
+                    <a href="comecar_agora">Começar agora</a>
+                    <a href="ver_exemplo">Ver exemplo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div></div>
+    <footer>
+        <div>
+            <img src="img/ContractShield_logo.jpeg" alt="Logo ContractShield">
+            <p>
+                Protótipo acadêmico de análise de contratos. Nenhuma <br>
+                decisão jurídica deve se basear apenas nesta <br>
+                ferramenta.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
